@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react"
 
 function Footer() {
-
     const [time, setTime] = useState(new Date())
 
     useEffect(() => {
@@ -31,9 +30,9 @@ function Footer() {
     return (
         <footer style={styles.footer}>
             <div style={styles.links}>
-                <a style={styles.link} href="https://www.facebook.com/luka.shavadze.7796" target="_blank">Facebook</a>
+                <a style={styles.link} href="https://www.facebook.com/luka.shavadze.7796" target="_blank" rel="noreferrer">Facebook</a>
                 <a style={styles.link} href="https://mail.google.com/mail/u/0/#inbox">Gmail</a>
-                <a style={styles.link} href="https://github.com/lukascorery" target="_blank">GitHub</a>
+                <a style={styles.link} href="https://github.com/lukascorery" target="_blank" rel="noreferrer">GitHub</a>
             </div>
 
             <p>{time.toLocaleTimeString()}</p>
@@ -42,4 +41,4 @@ function Footer() {
     )
 }
 
-export default Footer;
+export default Footer

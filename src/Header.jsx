@@ -1,7 +1,6 @@
 import { useState } from "react"
 
 function Header() {
-
     const [open, setOpen] = useState(false)
     const [hovered, setHovered] = useState(null)
 
@@ -51,7 +50,6 @@ function Header() {
             fontWeight: "500",
             transition: "color 0.2s",
             color: "white",
-            textDecoration: "none",
         }
     }
 
@@ -62,7 +60,7 @@ function Header() {
         { name: "React", id: "react" },
         { name: "მასწავლებლები", id: "teachers" },
         { name: "კონტაქტი", id: "contact" }
-]
+    ]
 
     return (
         <header style={styles.header}>
@@ -71,7 +69,9 @@ function Header() {
                 onMouseEnter={e => e.target.style.transform = "scale(1.1)"}
                 onMouseLeave={e => e.target.style.transform = "scale(1)"}
             >
-                <a href="https://www.facebook.com/nika11keshelava" style={styles.link}>GOA აკადემია</a>
+                <a href="https://www.facebook.com/nika11keshelava" style={styles.link} target="_blank" rel="noreferrer">
+                    GOA აკადემია
+                </a>
             </div>
 
             <button style={styles.button} onClick={() => setOpen(!open)}>
@@ -99,4 +99,4 @@ function Header() {
     )
 }
 
-export default Header;
+export default Header
