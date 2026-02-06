@@ -46,7 +46,7 @@ function Teachers() {
             <h2 style={styles.title}>მადლობა ჩემს მასწავლებლებს</h2>
 
             <div style={styles.card}>
-                <img src="./lukamaswi.png" alt="Teacher" style={styles.image} />
+                <img src="./Lukamaswi.png" alt="Teacher" style={styles.image} />
                 <a href="https://www.facebook.com/luka.gurgenidze0" style={styles.link}>Facebook</a>
                 <p style={styles.text}>
                     უღრმესი მადლობა მინდა გადავუხადო ჩემს მასწავლებელს, ლუკა გურგენიძეს რომელმაც გვასწავლა ერთი წლის განმავლობაში. მისი წყალობით უფრო დავუახლოვდი ჩემს ოცნებას რომ გავხდე დეველოპერი და შევქმნა საიტები. კიდევ ერთხელ დიდი მადლობა ლუკა მასწავლებელს.
